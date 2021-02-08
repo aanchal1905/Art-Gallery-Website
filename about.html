@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-image: url('aboutart.jpg');
+  padding: 70px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height:300px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  color: black;
+  height: 500px; /* only for demonstration, should be removed */
+  background-image: url('3.jpg');
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-image: url('3.jpg');
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: url('3.jpg');
+  height: 250px;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>ABOUT US</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="http://localhost/DBMS_PBL/index.html">HOME</a></li><br>
+      <li><a href="http://localhost/DBMS_PBL/about.html">ABOUT US</a></li><br>
+      <li><a href="http://localhost/DBMS_PBL/GALLERYPAGE.html">GALLERY PAGE</a></li><br>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>AAKRITI ART GALLERY</h1>
+    <p>Aakriti Art Gallery began its journey in the first decade of the new millennium and geared up an evolution in the modern and contemporary art in India. For nearly a decade, Aakriti has showcased some of the unique and finest exhibitions of modern and contemporary art in India building up a gateway of Indian art in the world market. It has constantly hosted workshops, art camps, talk shows and seminar and made a landmark success in promoting Indian contemporary art at the global level. Keeping with the latest trends of the art market, Aakriti has come up with best solutions for a wider audience of fine arts from traditional paintings, sculptures, printmaking, and graphics to new media like conceptual art, video art, installations and experimental art and started an online art shop where a buyer can opt to select and buy a piece of modern and contemporary art of his or her choice from a variety of collections. Aakriti Art Gallery since its inception has been instrumental in promoting the upcoming artists and newer generation art works. The whole idea of ‘Gen Next’ exhibitions profusely dealing with contemporary art of India as well reaching out to young artists from different corners of the globe happens to be exclusively Aakriti Art Gallery’s brainchild, which has revolutionized the concept of looking at contemporary art in the new millennium and given birth to a new generation of groundbreaking contemporary artists who are doing extremely well in the art world. In the list of groundbreaking contemporary artists, Aarkriti Art Gallery has largely showcased the works of various artists like Ram Kumar, Niren Sengupta, Dileep Sharma and many more. One can always come across their works and experience their aesthetic beauty whenever they visit in any of the galleries of Aakriti in Kolkata or New Delhi. And if someone happens to miss it in the exhibition/s, then just browse it online and make the best deal just sitting at home. The concept of ‘Affordable Art’ is very much an in-thing and Aakriti Art Gallery once again vouches on providing the best of contemporary and modern art works to its audience and collectors/buyers at the most convenient and affordable price. To make them readily available to the collectors, Aakriti has concentrated and devised easier ways to make the sale and purchase through online art shop available in the online galleries apart from direct sales from the galleries’ physical sites. Buy Art Online is the simplest trading mechanism, Aakriti is providing to its collectors and viewers where you can make the best of your deals, also bid and buy in the form of auction/s with full faith and conviction with every transparency of authenticity in each deal made.
+    </p>
+    <br>
+    <h1>DIRECTORS</h1>
+    
+    <p>AANCHAL SAXENA
+</p>  
+
+     <p>UCHITA GUPTA
+     </p>
+     
+     <p>ARCHISHA SRIVASTAVA</p>
+  </article>
+</section>
+
+<footer>
+  <p><a href="http://localhost/DBMS_PBL/index.html">BACK TO HOME</a></p>
+      
+</footer>
+
+</body>
+</html>

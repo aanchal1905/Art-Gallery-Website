@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #008080 ;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #008080 ;
+  padding: 10px;
+  text-align: center;
+  color:white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-6</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="https://emptyeasel.com/wp-content/uploads/2019/02/harry-perry-painting.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>BANDANA KUMARI</h1>
+    <p>Back To Artists
+Biography
+Patna -Bihar,  India                                                    
+
+Academics
+
+Bachelors in Fine Arts(Painting)
+
+College of  Arts and Crafts, Patna University, Patna
+
+​​</p>
+    <p>Abstract expressionism is a post–World War II art movement in American painting, developed in New York in the 1940s.[1] It was the first specifically American movement to achieve international influence and put New York City at the center of the western art world, a role formerly filled by Paris. Although the term "abstract expressionism" was first applied to American art in 1946 by the art critic Robert Coates, it had been first used in Germany in 1919 in the magazine Der Sturm, regarding German Expressionism. In the United States, Alfred Barr was the first to use this term in 1929 in relation to works by Wassily Kandinsky.
+<p>Technically, an important predecessor is surrealism, with its emphasis on spontaneous, automatic, or subconscious creation. Jackson Pollock's dripping paint onto a canvas laid on the floor is a technique that has its roots in the work of André Masson, Max Ernst, and David Alfaro Siqueiros. The newer research tends to put the exile-surrealist Wolfgang Paalen in the position of the artist and theoretician who fostered the theory of the viewer-dependent possibility space through his paintings and his magazine DYN. Paalen considered ideas of quantum mechanics, as well as idiosyncratic interpretations of the totemic vision and the spatial structure of native-Indian painting from British Columbia and prepared the ground for the new spatial vision of the young American abstracts. 
+</p></section>
+
+<footer>
+<p>
+  Price-$6.1million
+</p>
+</footer>
+
+</body>
+</html>

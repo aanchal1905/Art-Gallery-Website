@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #F08080;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #F08080;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-1</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="https://www.romeing.it/wp-content/uploads/2019/02/art-gallery-roma13-770x770.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>NIREN SENGUPTA</h1>
+    <p>Biography
+Born in January 1940 in Bengal
+
+Former Principal, College of Art, New Delhi
+
+Teaching experience of over 30 years in graduate & post-graduate levels in various art institutions</p>
+    <p>Contemporary art is the art of today, produced in the second half of the 20th century or in the 21st century. Contemporary artists work in a globally influenced, culturally diverse, 
+and technologically advancing world. Their art is a dynamic combination of materials, methods, concepts, and subjects that continue the challenging of boundaries that was already well underway in the 20th century. 
+Diverse and eclectic, contemporary art as a whole is distinguished by the very lack of a uniform, organising principle, ideology, or "-ism". 
+Contemporary art is part of a cultural dialogue that concerns larger contextual frameworks such as personal and cultural identity, family, community, and nationality</p>
+ 
+<p>The classification of "contemporary art" as a special type of art, rather than a general adjectival phrase, goes back to the beginnings of Modernism in the English-speaking world. In London, the Contemporary
+ Art Society was founded in 1910 by the critic Roger Fry and others, as a private society for buying works of art to place in public museums.[3] A number of other institutions using the term were founded in the 1930s, such as in 1938 the Contemporary Art Society of Adelaide, Australia,[4] and an increasing number after 1945.[5] Many, like the Institute of Contemporary Art, Boston changed their names from ones using "Modern art" in this period, as Modernism became defined as a historical art movement, and much "modern" art ceased to be "contemporary". The definition of what is contemporary is naturally always on the move, anchored in the present with a start date that moves forward, and the works the Contemporary Art Society bought in 1910 could no longer be described as contemporary.
+</p> </article>
+</section>
+
+<footer>
+<p>
+  Price-$1.2million
+</p>
+</footer>
+
+</body>
+</html>

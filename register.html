@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<center>
+<body>
+<style>
+body {
+  background-image: url('https://www.moca.org/storage/app/uploads/public/575/9fa/3a3/thumb_1599_1120_0_0_0_auto.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<center><h1>REGISTRATION FORM</h1></center>
+<form action="filea.php" method="POST">
+    <table width="450px" height="500px" size="100">
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input type="text" placeholder="Name" name="username" required maxlength="50" size="30">
+            </td> 
+        </tr>   
+        <tr>
+            <td>      
+                Password:
+            </td>
+            <td>
+                <input type="text" placeholder="Password" name="password" required maxlength="50" size="30">
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name="gender" value="m" required>Male
+                <input type="radio" name="gender" value="f" required>Female
+                
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                Email:
+            </td>
+            <td>
+                <input type="email" placeholder="Email" name="email" required maxlength="80" size="30"> 
+            </td> 
+        </tr>
+     
+        <tr>
+            <td>
+                Phone no:
+            </td>
+            <td>
+                <select name="phoneCode" required>
+                   <option selected hidden value="">Select Code</option> 
+                   <option value="+91">+91</option>
+                   <option value="0744">0744</option>
+                </select>
+                <input type="Phone" name="phone" required>
+            </td> 
+        </tr>
+        <tr>
+            <center>
+            <td>               
+               <input type="SUBMIT" value="SUBMIT">
+            </td>
+        </center>
+        </tr>    
+        <tr>
+            <center>
+            <td>               
+               <button type="submit" name="LOGIN" onclick="document.location='http://localhost/DBMS_PBL/login1.html'">ALready registered?</button>
+            </td>
+        </center>
+        </tr>        
+    
+    </table>
+</form>    
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: 	#008000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: pink;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #DAF7A6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #DAF7A6;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: 	#008000;
+  padding: 10px;
+  text-align: center;
+  color: pink;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-8</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="8po.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>AKBAR PADAMSEE</h1>
+    <p>Akbar Padamsee (born 12 April 1928, Bombay) is a contemporary Indian artist and painter, considered one of the pioneers in Modern Indian painting along with Raza, Souza and M.F. Hussain.[1] Over the years he has also worked with various mediums from oil painting, plastic emulsion, water colour, sculpture, printmaking, to computer graphics, and photography, as worked a film maker, sculptor, photographer, engraver, and lithographer.[2] Today his paintings are among the most valued by modern Indian artists. His painting Reclining Nude was sold for US$1,426,500 at Sotheby's in New York on 25 March 2011.[1][3]
+</p>
+    <p>His work is introspective; his "Metascapes" or his "Mirror Images" are abstract images formed from the search for a formal logic. His topics include landscapes, nudes, heads and he has done portraits created in pencil and charcoal. The depth which emerges from his oil-based works, emanates from the coloured matter. This creates a pictorial technique juxtaposing emerging split forms.</P> 
+<p>Sayed Haider Raza, had his first solo show when he was 24 in 1946 at Bombay Art Society Salon, and was awarded the Silver Medal of the society.[13]
+
+He has done, in addition to his painted work, black and white photographs which use light to create dimension. Padamsee always explored new plastic genres; he also created "SYZYGY", "Events in a Cloud Chamber" films shot in 1970, and explored computers in "Compugraphics".
+
+He lives in South Mumbai with his wife Bhanumati, and works at his studio in Prabhadevi.</P>
+</section>
+
+<footer>
+<p>
+  Price-$6.3million
+</p>
+</footer>
+
+</body>
+</html>

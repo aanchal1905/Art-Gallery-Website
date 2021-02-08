@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #808000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #808000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-3</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/1280x1280/products/31965/44808/1527844490374_Tree_by_Luis_David-mixed_on_masonite-23.5___X_31.5__-1550_usd.-__81859.1528180230.jpg?c=2&imbypass=on" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>DILEEP SHARMA</h1>
+    <p>Biography
+
+Born in 1974, Mandawar, Rajasthan, India
+
+Academics
+1998 Master of Fine Arts (Print Making), Sir J.J. School of Art, Mumbai
+1996 Bachelor of Fine Arts (Painting), Rajasthan School of Art, Jaipur</p>
+    <p>Art Deco, sometimes referred to as Deco, is a style of visual arts, architecture and design that first appeared in France just before World War I.[1] Art Deco influenced the design of buildings, furniture, jewelry, fashion, cars, movie theatres, trains, ocean liners, and everyday objects such as radios and vacuum cleaners.[2] It took its name, short for Arts Décoratifs, from the Exposition internationale des arts décoratifs et industriels modernes (International Exhibition of Modern Decorative and Industrial Arts) held in Paris in 1925.[3] It combined modern styles with fine craftsmanship and rich materials. During its heyday, Art Deco represented luxury, glamour, exuberance, and faith in social and technological progress 
+
+</p>
+<p>Art Deco was a pastiche of many different styles, sometimes contradictory, united by a desire to be modern. From its outset, Art Deco was influenced by the bold geometric forms of Cubism and the Vienna Secession; the bright colors of Fauvism and of the Ballets Russes; the updated craftsmanship of the furniture of the eras of Louis Philippe I and Louis XVI; and the exotic styles of China and Japan, India, Persia, ancient Egypt and Maya art. It featured rare and expensive materials, such as ebony and ivory, and exquisite craftsmanship. The Chrysler Building and other skyscrapers of New York built during the 1920s and 1930s are monuments of the Art Deco style.
+
+</p></section>
+
+<footer>
+<p>
+  Price-$3.6million
+</p>
+</footer>
+
+</body>
+</html>

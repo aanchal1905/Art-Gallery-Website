@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #DAF7A6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:  black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background:#ABEBC6 ;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:#ABEBC6 ;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: 	#DAF7A6;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-10</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="10po.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>RAM KUMAR</h1>
+    <p>Ram Kumar (23 September 1924[6] – 14 April 2018) was an Indian artist and writer who has been described as one of India's foremost abstract painters.[7] He was associated with the Progressive artist's group along with greats like M.F. Hussain, Tyeb Mehta, S.H. Raza.[8] He is said to be one of the first Indian artists to give up figurativism for abstract art.[9] His art commands high prices in the domestic and international market. His work "The Vagabond" fetched $1.1 million at Christie's, setting another world record for the artist. He is also one of the few Indian Modernist masters accomplished in writing as well as painting.[10]
+</P>  <p>Ram Kumar Verma was born in Shimla, the capital of the Indian state of Himachal Pradesh in a large middle-class family of eight brothers and sisters.[11] His father was a government employee from Patiala in Punjab, India who worked in the Civil and Administrative Division in the British Government.[12][13] While pursuing M.A. in Economics from St. Stephen's College, Delhi,[14] he chanced upon an art exhibition in 1945.[15] One evening, after "loitering" around Connaught Place with his friends from St Stephen's College, he landed up at an art exhibition.
+</p>
+</section>
+
+<footer>
+<p>
+  Price-$3.7million
+</p>
+</footer>
+
+</body>
+</html>

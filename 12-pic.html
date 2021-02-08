@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #F7DC6F;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:  black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background:#FCF3CF ;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:#FCF3CF ;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:#F7DC6F;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-12</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src=" https://5.imimg.com/data5/DG/LC/MY-42349307/nature-canvas-painting-500x500.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>KRISHEN KHANNA</h1>
+    <p>Krishen Khanna (born 1925) is an Indian artist born in Lyallpur[1] (now Faislabad, Pakistan). He attended Imperial Service College in England and is a self-taught artist.[2] He is recipient of the Rockefeller Fellowship in 1962, the Padma Shri in 1990, and the Padma Bhushan in 2011.
+</P>  <p>The feature documentary directed by Sruti Harihara Subramanian and produced by Piramal Art Foundation, A Far Afternoon — A painted saga by Krishen Khanna,[6] recently received two National awards in the categories of National Award for Best Art /Cultural Film and the National Award for Best Music (Non-Feature).[7] The documentary is a filmmaker’s attempt to memorialize the artistic process involved in the creation of the eponymous art work by veteran artist Krishen Khanna, and trace some of the influencers for the artist. A film in five parts, A Far Afternoon, delves into those influences that eventually rendered themselves on canvas. Bombay, the city in which Krishen Khanna was inducted into the Progressive Artists Group; the baraaat (wedding procession), a constant in Indian weddings; the choice of colours, yellow, blue and whites; other artists, other art works that have brought him to this place and point in time. The music directors of A Far Afternoon the music duo Aravind-Jai Shankar are based out of Chennai, India. They have worked on national award-winning films, documentaries, advertising commercials, computer and mobile device games and numerous other projects encompassing the scope of music, sound design, and audio production.
+</P>
+</section>
+
+<footer>
+<p>
+  Price-$2.5million
+</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #C70039;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: pink;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: white;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: 	#C70039;
+  padding: 10px;
+  text-align: center;
+  color: pink;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-9</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="https://images.discerningassets.com/image/upload/q_auto/c_fit,h_600,w_600/v1556048531/PROMISE_OF_SPRING_xxd_gk5pve.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>F. N. SOUZA</h1>
+    <p>Francis Newton Souza (12 April 1924 – 28 March 2002) was an Goan artist. He was a founding member of the Progressive Artists' Group of Bombay, and was the first post-independence Indian artist to achieve high recognition in the West. Souza's style exhibited both low-life and high energy.</p>
+    <p>In 1948 Souza's paintings were shown at an exhibition in London's Burlington House. In 1949 Souza moved to London, where initially struggling to make an impact as an artist, he worked as a journalist. The Institute of Contemporary Arts included his work in a 1954 exhibition. His success as an artist took off following the publication in 1955 of his autobiographical essay Nirvana of a Maggot in Stephen Spender's Encounter magazine. Spender introduced Souza to the art dealer Victor Musgrave, the owner of Gallery One. Souza's 1955 exhibit was a sold out, leading to ongoing success
+</p>
+<p>Souza's career developed steadily, and he participated in several shows, receiving positive reviews from John Berger. His style was, as Berger pointed out,[5] deliberately eclectic: essentially Expressionist in character, but also drawing on the post-war Art Brut movement and elements of British Neo-romanticism.</P>
+</section>
+
+<footer>
+<p>
+  Price-$8.4million
+</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: 	#CD5C5C;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: 	#CD5C5C;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>PORTRAIT-7</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      	<a href="#"><img src="https://watercolorpainting.com/staging/wp-content/uploads/2015/09/BarbaraNechis130178.jpg" style="width:400px;height:450px" alt="image" /> </a>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>SAYED HAIDER</h1>
+    <p>Sayed Haider "S. H." Raza (22 February 1922 – 23 July 2016) was an Indian painter who lived and worked in France since 2005 of March , while maintaining strong ties with India.[1] He was born in Barbaria, Central Provinces, British India which is now present day Madhya Pradesh.</p>
+    <p>He was a renowned Indian artist.[2][3] He was awarded the Padma Shri and Fellowship of the Lalit Kala Academy[4] in 1981, Padma Bhushan in 2007,[5] and Padma Vibhushan in 2013.[6] He was conferred with the Commandeur de la Legion d'honneur (Legion of Honour) on July 14, 2015.[7]
+</P> 
+<p>Sayed Haider Raza, had his first solo show when he was 24 in 1946 at Bombay Art Society Salon, and was awarded the Silver Medal of the society.[13]
+
+His work evolved from painting expressionistic landscapes to abstract ones. From his fluent water colours of landscapes and townscapes executed in the early 40's, he moved toward a more expressive language, painting landscapes of the mind.
+</P>
+<p>
+By the 1970s Raza had grown increasingly unhappy and restless with his own work and wanted to find a new direction and deeper authenticity in his work, and move away from what he called the 'plastic art'. His trips to India, especially to caves of Ajanta - Ellora, followed by those to Benaras, Gujarat and Rajasthan, made him realize his role and study Indian culture more closely, the result was 'Bindu',[26] which signified his rebirth as a painter.[27] The Bindu [28][29][30] came forth in 1980, and took his work deeper and brought in, his new-found Indian vision and Indian ethnography. One of the reasons he attributes to the origin of the 'Bindu', have been his elementary school teacher, who on finding him lacking adequate concentration, drew a dot on the blackboard and asked him to concentrate on it.
+</p>
+</section>
+
+<footer>
+<p>
+  Price-$2.1million
+</p>
+</footer>
+
+</body>
+</html>
